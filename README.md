@@ -26,6 +26,6 @@ Here we show how this would work with [`dumb-init`](https://github.com/Yelp/dumb
 
 ```Dockerfile
 ...
-RUN wget -0 /bin/wait.sh https://raw.githubusercontent.com/retrohacker/docker-wait/master/wait.sh
+ADD https://raw.githubusercontent.com/retrohacker/docker-wait/master/wait.sh /bin/wait.sh
 ENTRYPOINT ["dumb-init", "--", "/bin/bash", "/bin/wait.sh"]
 ```
