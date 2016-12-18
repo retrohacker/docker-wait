@@ -22,7 +22,7 @@ services:
 
 ### `Dockerfile`
 
-Here we show how this could work with `dumb-init`, but you could easily leave that bit out.
+Here we show how this would work with [`dumb-init`](https://github.com/Yelp/dumb-init), but you could easily leave that bit out.
 
 ```Dockerfile
 ...
