@@ -1,5 +1,7 @@
 # docker-wait
 
+![docker-wait](./imgs/logo.png)
+
 A simple script that waits for services to be available before starting your application
 
 # Usage
